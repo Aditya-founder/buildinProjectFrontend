@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.comment-section {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(600px, 1fr)
+  ); /* Responsive columns */
+  gap: 2rem; /* Adjust gap as needed */
+  padding: 2rem; /* Padding instead of margin */
+  box-sizing: border-box;
+}
+
+.comment-card {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  height: 230px; /* Maintain fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.comment-card-left {
+  width: 30%; /* Fixed width for image */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.comment-image {
+  width: 100%; /* Image fills its container */
+  height: 100%; /* Fill container height */
+  object-fit: cover; /* Maintain aspect ratio and fill */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.comment-card-right {
+  width: 70%; /* Adjust content width */
+  padding-left: 20px; /* Spacing between image and text */
+}
+
+.comment-heading {
+  font-size: 24px; /* Fixed font size */
+  margin: 10px 0;
+}
+
+.comment-heading a {
+  margin-left: 20px; /* Fixed margin */
+}
+
+.comment-content {
+  font-size: 18px; /* Fixed font size */
+  color: #555;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.check-more {
+  font-size: 24px; /* Fixed font size */
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  color: #9b4646;
+}
+
+/* Medium screens */
+@media (max-width: 900px) {
+  .comment-section {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .comment-card {
+    height: 250px; /* Adjust height */
+  }
+
+  .comment-heading {
+    font-size: 20px;
+  }
+
+  .comment-content {
+    font-size: 16px;
+  }
+
+  .check-more {
+    font-size: 22px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .comment-section {
+    grid-template-columns: 1fr;
+  }
+
+  .comment-card {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Auto height */
+    text-align: center; /* Center text */
+  }
+
+  .comment-card-left,
+  .comment-card-right {
+    width: 100%; /* Full width */
+    padding: 10px 0; /* Padding for separation */
+  }
+
+  .comment-heading {
+    font-size: 18px;
+  }
+
+  .comment-content {
+    font-size: 14px;
+  }
+
+  .check-more {
+    font-size: 20px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+  .comment-card {
+    padding: 15px;
+  }
+
+  .comment-heading {
+    font-size: 16px;
+  }
+
+  .comment-content {
+    font-size: 12px;
+  }
+
+  .check-more {
+    font-size: 18px;
+  }
+}

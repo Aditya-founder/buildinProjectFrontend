@@ -1,0 +1,60 @@
+.architect-require-form {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill-arch-form {
+  border: 1px solid gray;
+  height: 40%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.fill-arch-form-header {
+  flex: 0 0 auto;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: Jura;
+  color: rgb(59, 80, 98);
+}
+
+.ui.form {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grouped.fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.require-feild {
+  display: flex;
+  align-items: center;
+}
+
+.ui.input.focus {
+  margin-top: 20px;
+}
+
+.ui.button {
+  align-self: center;
+  margin-top: 20px;
+}

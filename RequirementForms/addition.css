@@ -1,0 +1,41 @@
+.addition-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addition-form {
+  border: 1px solid black;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.addition-form h2 {
+  text-align: center;
+  font-family: Jura;
+  color: rgb(59, 80, 98);
+}
+
+.addition-form .field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.addition-form .ui.input.focus {
+  margin-top: 20px;
+}
+
+.addition-form .ui.button {
+  align-self: center;
+  margin-top: 20px;
+}

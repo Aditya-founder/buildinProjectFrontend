@@ -1,0 +1,54 @@
+/* .service-filter {
+  display: flex;
+  width: 100%;
+}
+
+.pincode-entry {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.worker-filter {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 8px;
+  background-color: antiquewhite;
+  width: 50%;
+}
+
+.worker-professional-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.worker-professional-image {
+  width: 100%;
+  padding-top: 100%; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 2rem;
+  border: 1px solid red;
+}
+
+.worker-professional-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+} */
+
+.filter-section {
+  height: 30vh;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 2rem;
+}

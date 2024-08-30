@@ -1,0 +1,39 @@
+.plans-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans-form {
+  border: 1px solid black;
+  height: auto; /* Change this to auto to fit content */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Ensure this is center */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.plans-form h2 {
+  text-align: center;
+  font-family: Jura;
+  color: rgb(59, 80, 98);
+}
+
+.plans-form .plans-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.plans-form .ui.input.focus {
+  margin-top: 20px;
+}
+
+.plans-form .ui.button {
+  align-self: center;
+  margin-top: 20px;
+}

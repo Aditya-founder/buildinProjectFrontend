@@ -1,0 +1,14 @@
+.update-forms-details {
+  background-color: rgba(135, 206, 235, 0.1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-details {
+  background-color: white;
+  height: auto;
+  width: 80%;
+  padding: 4vh;
+}

@@ -1,0 +1,451 @@
+.frequently-asked {
+  width: 98vw;
+  height: 70vh;
+  margin-left: 0.34vw;
+  margin-top: 1rem;
+}
+
+.faq-header {
+  height: 8vh;
+  font-family: "Inria" Serif;
+  font-size: 3.5vw;
+  font-weight: 700;
+  line-height: 4vh;
+  color: #790910d6;
+  margin-left: 3vw;
+  margin-top: 2vh;
+}
+
+.faq-quotes {
+  width: 33vw;
+  height: 5vh;
+  margin-left: 3vw;
+  font-family: "Inria" Serif;
+  font-size: 1.25vw;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.5vh;
+  text-align: left;
+  color: #790910d6;
+}
+
+.faq-questions-list {
+  display: flex;
+  height: 78vh;
+}
+
+.faq-left {
+  margin-left: 3vw;
+  width: 65%;
+  height: 100%;
+}
+
+.faq-right {
+  width: 35%;
+  height: 50vh;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-right-centre {
+  height: 100%;
+  width: 26vw;
+  background-color: #146680;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+}
+
+.faq-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-left ul li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.faq-left ul li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-left ul li p {
+  margin: 0;
+  font-family: "Inria" Serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.5vh;
+  color: #000000;
+}
+
+.add {
+  font-size: 1.25vw;
+  font-weight: 700;
+  align-self: flex-end;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.answer.show {
+  max-height: 20vh; /* Adjust based on the content size */
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.if-not-get {
+  height: 8vh;
+  font-family: "Inria" Serif;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 4vh;
+  text-align: center;
+  color: #fffdfd;
+}
+
+.message-us p {
+  width: 16vw;
+  height: 14vh;
+  font-family: "Inria" Serif;
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 3vh;
+  margin-top: 2vh;
+  color: #fffdfd;
+  text-align: center;
+}
+
+.contact-us-btn {
+  width: auto;
+  height: 6vh;
+  background-color: #146680;
+  border-radius: 0.5vw;
+  border: 1px solid #fffdfd;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-us-script {
+  width: auto;
+  height: 4vh;
+  font-family: "Inria" Serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 4vh;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1010px) {
+  .faq-left {
+    margin-left: 3vw;
+    width: 50%;
+    height: 100%;
+  }
+
+  .faq-right {
+    width: 50%;
+    height: 50vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .faq-right-centre {
+    height: 85%;
+    width: 40vw;
+    background-color: #146680;
+    align-items: center;
+    border-radius: 1vw;
+  }
+
+  .if-not-get {
+    height: 8vh;
+    font-family: "Inria" Serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    line-height: 4vh;
+    text-align: center;
+    color: #fffdfd;
+  }
+
+  .contact-us-btn {
+    width: 10vw;
+    height: 6vh;
+    background-color: #146680;
+    border-radius: 0.5vw;
+    border: 1px solid #fffdfd;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .message-us p {
+    width: 25vw;
+    height: 20vh;
+    font-family: "Inria" Serif;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 4vh;
+    color: #fffdfd;
+    text-align: center;
+  }
+
+  .faq-left ul li div p {
+    font-size: 20px;
+  }
+
+  .add {
+    font-size: 3vw;
+    font-weight: 700;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .faq-quotes {
+    width: auto;
+    height: 5vh;
+    margin-left: 3vw;
+    font-family: "Inria" Serif;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+    color: #790910d6;
+  }
+
+  .faq-header {
+    height: 4vh;
+    font-family: "Inria" Serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    line-height: 2vh;
+    color: #790910d6;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+}
+
+@media (max-width: 610px) {
+  .frequently-asked {
+    width: 97%;
+    height: 140vh;
+    margin-top: 1rem;
+  }
+
+  .faq-questions-list {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+  }
+
+  .faq-left {
+    width: auto;
+    height: 100%;
+  }
+
+  .faq-right {
+    width: auto;
+    height: 80vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+  }
+
+  .faq-right-centre {
+    height: 100%;
+    width: 100%;
+    background-color: #146680;
+    align-items: center;
+    border-radius: 1vw;
+    margin-left: 1%;
+  }
+
+  .if-not-get {
+    height: 8vh;
+    font-family: "Inria" Serif;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 4vh;
+    text-align: center;
+    color: #fffdfd;
+    margin-top: 1rem;
+  }
+
+  .message-us p {
+    font-size: 20px;
+    width: 18rem;
+    height: auto;
+  }
+
+  .contact-us-btn {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add {
+    font-size: 10vw;
+    font-weight: 700;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us-script {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .faq-header {
+    font-family: "Inria" Serif;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 4vh;
+    color: #790910d6;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+
+  .faq-quotes {
+    width: auto;
+    height: 5vh;
+    margin-left: 3vw;
+    font-family: "Inria" Serif;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5vh;
+    text-align: left;
+    color: #790910d6;
+  }
+
+  .contact-us-btn {
+    width: 35vw;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-us-script {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 250px) {
+  .faq-header {
+    font-family: "Inria" Serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 4vh;
+    color: #790910d6;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+
+  .faq-quotes {
+    width: auto;
+    height: 5vh;
+    margin-left: 3vw;
+    font-family: "Inria" Serif;
+    font-size: 5vw;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5vh;
+    text-align: left;
+    color: #790910d6;
+  }
+
+  .if-not-get {
+    height: 8vh;
+    font-family: "Inria" Serif;
+    font-size: 10vw;
+    font-weight: 700;
+    line-height: 4vh;
+    text-align: center;
+    color: #fffdfd;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 170px) {
+  .faq-header {
+    font-family: "Inria" Serif;
+    font-size: 12vw;
+    font-weight: 700;
+    line-height: 4vh;
+    color: #790910d6;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+
+  .faq-quotes {
+    width: auto;
+    margin-left: 3vw;
+    font-family: "Inria" Serif;
+    font-size: 7vw;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5vh;
+    text-align: left;
+    color: #790910d6;
+  }
+
+  .if-not-get {
+    height: 8vh;
+    font-family: "Inria" Serif;
+    font-size: 13vw;
+    font-weight: 700;
+    line-height: 4vh;
+    text-align: center;
+    color: #fffdfd;
+    margin-top: 1rem;
+  }
+
+  .contact-us-btn {
+    width: 45vw;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-us-script {
+    font-size: 15px;
+  }
+}

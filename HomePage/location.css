@@ -1,0 +1,140 @@
+.location-chooser {
+  width: 100%;
+  max-width: 1894px;
+  height: auto;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-header-box {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-header {
+  height: 36px;
+  font-family: "Jost";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #790910;
+}
+
+.selection {
+  width: 100%;
+  max-width: 1894px;
+  height: auto;
+  border-radius: 20px;
+  background: #bf4c4e36;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selection-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.selection-title {
+  font-family: "Inria" Serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #9b4646;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.selection-pincode-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.location-tag button {
+  width: 174.74px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: 0.5px solid #790910db;
+}
+
+.location-tag button:hover {
+  background-color: rgb(108, 125, 209);
+  color: white;
+  cursor: pointer;
+}
+
+/* Ensure equal width and height for .special and img */
+@media (max-width: 1200px) {
+  .special,
+  .submit-requirement {
+    width: 50%;
+    height: auto;
+  }
+
+  .submit-requirement {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 760px) {
+  .location-header {
+    height: 36px;
+    font-family: "Jost";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #790910;
+  }
+}
+
+@media (max-width: 580px) {
+  .selection-title {
+    font-family: "Inria" Serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9b4646;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .location-header {
+    height: 36px;
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #790910;
+  }
+}
+
+@media (max-width: 408px) {
+  .selection-title {
+    font-family: "Inria" Serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #9b4646;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,22 @@
+.engineer-form {
+  background-color: rgba(135, 206, 235, 0.1);
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engineer-form-details {
+  background-color: white;
+  height: 120vh;
+  width: 90%;
+  padding: 4vh;
+}
+
+.company-contact-no {
+  width: 25% !important;
+}
+
+.dob-container {
+  width: 15%;
+}

@@ -1,0 +1,89 @@
+.engineer-filter {
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: #d9d9d9;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.leftmost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-leftmost {
+  width: 100%;
+}
+
+.projects-types-header {
+  margin-top: 1rem;
+}
+
+.top-content {
+  margin-bottom: auto;
+}
+
+.bottom-content {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightmost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+
+.rightmost button {
+  height: 20%;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  border: none;
+  color: red;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .rightmost {
+    height: 30vh;
+  }
+}

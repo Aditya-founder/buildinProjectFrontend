@@ -1,0 +1,275 @@
+.generate-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.card {
+  width: calc(45% - 16px); /* Adjust for gap */
+  max-width: 600px;
+  height: 250px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(155, 83, 15, 0.2);
+}
+
+.card-left {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.card-left img {
+  width: 80%; /* Adjust as per your design */
+  max-height: 80%; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.card-middle {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.card-middle h3 {
+  margin-bottom: 8px;
+}
+
+.card-middle p {
+  margin: 4px 0;
+}
+
+.card-right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust gap as needed */
+  padding: 16px;
+}
+
+.card-right .btn {
+  width: 100%; /* Button width adjusted for responsiveness */
+  max-width: 200px; /* Limit button width */
+  cursor: pointer;
+  font-size: 18px; /* Adjust font size */
+  font-weight: 500; /* Adjust font weight */
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px; /* Adjust padding */
+  box-sizing: border-box;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.card-right .btn:hover {
+  background-color: #1a6ec2;
+}
+
+.ui.section.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(196, 190, 190);
+}
+
+.space-bottom {
+  height: 50px;
+}
+
+@media ((max-width: 1255px) and (min-width:1104px)) {
+  .card {
+    width: calc(45% - 8px); /* Adjust for gap */
+    max-width: 500px;
+    height: 250px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .card-right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap as needed */
+    padding: 16px;
+  }
+
+  .card-right .btn {
+    width: 100%; /* Button width adjusted for responsiveness */
+    max-width: 100px; /* Limit button width */
+    height: 30px;
+    cursor: pointer;
+    font-size: 10px; /* Adjust font size */
+    font-weight: 700; /* Adjust font weight */
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px; /* Adjust padding */
+    box-sizing: border-box;
+    background-color: #f1f5f9;
+    color: #1f205b;
+    transition: background-color 0.3s ease;
+  }
+
+  .card-right .btn:hover {
+    background-color: #d1d5d9;
+  }
+}
+
+@media (max-width: 1106px) {
+  /* Base styles for .card */
+  .card {
+    width: calc(30% - 16px); /* Adjust for gap */
+    height: 400px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column; /* Stack the card-left on top */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-left {
+    width: 100%;
+    height: 70%; /* Occupies 70% of card's height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  .card-left img {
+    width: 60%; /* Occupy full width */
+    height: 100%; /* Occupy full height */
+    object-fit: cover;
+    border-radius: 50%; /* Remove border radius */
+    border: none; /* Remove border */
+  }
+
+  .card-middle-right {
+    width: 100%;
+    height: 20%; /* Occupies 20% of card's height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .card-middle {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 100%;
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  .card-middle h3,
+  .card-middle p {
+    margin: 0;
+    font-size: 14px; /* Adjust font size if needed */
+    overflow: hidden; /* Ensure text does not overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+
+  .card-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Adjust gap as needed */
+  }
+
+  .card-right .btn {
+    width: auto; /* Button width adjusted for responsiveness */
+    max-width: 100px; /* Limit button width */
+    height: 30px; /* Reduce button height */
+    cursor: pointer;
+    font-size: 10px; /* Adjust font size */
+    font-weight: 700; /* Adjust font weight */
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px; /* Adjust padding */
+    box-sizing: border-box;
+    background-color: #f1f5f9;
+    color: #1f205b;
+    transition: background-color 0.3s ease;
+    line-height: 1; /* Ensure single-line text */
+  }
+
+  .card-right .btn:hover {
+    background-color: #d1d5d9;
+  }
+}
+
+/* Media query for responsive layout */
+@media (max-width: 1024px) {
+  .card {
+    width: calc(50% - 16px); /* Adjust width for two cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 16px);
+    margin-top: 1rem;
+    height: 400px;
+  }
+}
+
+@media ((max-width: 568px)) {
+  .card {
+    width: calc(90%-16px);
+    height: 300px;
+  }
+}
+
+@media ((max-width: 460px) and (min-width:20px)) {
+  .card {
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+  }
+}

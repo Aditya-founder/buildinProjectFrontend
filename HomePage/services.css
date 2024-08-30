@@ -1,0 +1,203 @@
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #14668014;
+  text-align: center;
+  padding: 20px;
+  margin-top: 8rem;
+}
+
+.our-services-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.services-title {
+  font-family: "Jost";
+  font-size: 2em;
+  font-weight: 700;
+  color: #1f205b;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px;
+  width: auto;
+}
+
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  height: auto;
+  width: auto;
+}
+
+.service-card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+.service-card h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #666;
+}
+
+.hire-services-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  border-radius: 10px;
+  background: #790910d6;
+  border: 1px solid #8e5252;
+  cursor: pointer;
+  color: white;
+}
+
+.hire-me {
+  font-family: "Inria" Serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+
+  .service-card {
+    height: auto;
+    width: auto;
+  }
+
+  .service-card img {
+    height: 45%;
+  }
+
+  .hire-services-btn {
+    height: 40px;
+  }
+
+  .hire-me {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+
+  .service-card {
+    height: 90vh;
+    width: auto;
+  }
+
+  .service-card img {
+    height: 40%;
+  }
+
+  .hire-services-btn {
+    height: 36px;
+  }
+
+  .hire-me {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .service-card {
+    height: 100vh;
+    width: auto;
+  }
+
+  .service-card img {
+    height: 50%;
+  }
+
+  .hire-services-btn {
+    height: 32px;
+  }
+
+  .hire-me {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .service-card img {
+    height: 50%;
+  }
+
+  .hire-services-btn {
+    height: 30px;
+  }
+
+  .hire-me {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .service-card {
+    padding: 10px;
+  }
+
+  .service-card {
+    height: auto;
+    width: auto;
+  }
+
+  .service-card img {
+    height: 50%;
+  }
+
+  .hire-services-btn {
+    height: 28px;
+  }
+
+  .hire-me {
+    font-size: 0.8rem;
+  }
+}

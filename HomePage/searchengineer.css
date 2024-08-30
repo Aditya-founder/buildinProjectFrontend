@@ -1,0 +1,113 @@
+.search-engineer {
+  height: 90vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.search-engineer-filter {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centering content horizontally */
+}
+
+.search-engineer-filter-header {
+  font-family: Inria Serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #075a75b0;
+}
+
+.engineer-search-form {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5%;
+}
+
+.engineer-search-form-left {
+  width: 50%;
+  height: 100%;
+  padding: 6vh;
+}
+
+.engineer-search-form-right {
+  width: 50%;
+  height: 100%;
+}
+
+.engineer-search-form-right img {
+  height: 100%;
+  width: 100%;
+  padding: 4vh;
+}
+
+@media (max-width: 1000px) {
+  .search-engineer {
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .engineer-search-form {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+  }
+
+  .engineer-search-form-left {
+    width: 100%;
+    height: 50%;
+  }
+
+  .engineer-search-form-right {
+    display: none;
+  }
+}
+
+@media (max-width: 916px) {
+  .search-engineer-filter-header {
+    font-family: Inria Serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #075a75b0;
+  }
+}
+
+@media (max-width: 678px) {
+  .search-engineer-filter-header {
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #075a75b0;
+  }
+}
+
+@media (max-width: 580px) {
+  .search-engineer-filter-header {
+    font-family: Inria Serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #075a75b0;
+  }
+}

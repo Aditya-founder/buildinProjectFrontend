@@ -1,0 +1,112 @@
+.card-payment-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2e9);
+}
+
+.worker-payment-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  height: 70vh;
+  width: 85vw;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.worker-p-details {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  position: relative;
+}
+
+.profile-p-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #007bff;
+  object-fit: cover;
+}
+
+.worker-p-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.worker-p-name {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.worker-p-id,
+.worker-p-profession {
+  font-size: 1.3rem;
+  margin: 5px 0;
+  color: #777;
+}
+
+.worker-p-description {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.book-p-now {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.book-now-p-button {
+  padding: 15px 35px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-now-p-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.company-p-info {
+  width: 40%;
+  padding: 20px;
+  background: linear-gradient(135deg, #2aaa39, #2a9d8f);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company-p-heading {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.company-p-description {
+  font-size: 1.3rem;
+  color: #f0f0f0;
+  line-height: 1.6;
+}

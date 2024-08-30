@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.what-we-serve {
+  text-align: center;
+  font-size: 3rem; /* Adjusted for responsiveness */
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.details-what-we-serve p {
+  font-size: 1.3rem; /* Adjusted for readability */
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.check-what-we-serve {
+  height: 10vh;
+  color: white;
+  font-size: 2rem; /* Adjusted for responsiveness */
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  font-family: Juro, sans-serif;
+  font-weight: 600;
+  background-color: rgb(57, 48, 48);
+  border-radius: 20px;
+  width: calc(100% - 2rem); /* Adjusted width */
+  margin: 0 auto 2rem; /* Centered and margin adjusted */
+  text-align: center; /* Center text */
+}
+
+/* Card Container */
+.type-cards-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card Styles */
+.type-card {
+  background-color: #fff;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for hover effect */
+}
+
+.type-card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.type-card-image {
+  width: 100%;
+  height: 200px; /* Adjusted for uniformity */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.type-card-content {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.type-card-title {
+  font-size: 1.25rem; /* Adjusted font size */
+  font-weight: 900;
+  font-family: Juro, sans-serif;
+  margin-bottom: 10px;
+}
+
+.type-card-description {
+  font-size: 1rem; /* Adjusted font size */
+  color: #666;
+  margin: 0;
+}
+
+/* Button Styles */
+.fits-box {
+  height: 3rem; /* Adjusted height */
+  width: 100%;
+  background-color: red;
+  border: none;
+  font-size: 1rem; /* Adjusted font size */
+  font-weight: 600;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+.fits-box:hover {
+  background-color: darkred; /* Darker shade on hover */
+}

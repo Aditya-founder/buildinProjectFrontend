@@ -1,0 +1,303 @@
+.materialbg {
+  width: auto;
+  height: 76vh;
+  background-image: url("https://img.freepik.com/premium-photo/3d-rendering-online-store-smartphone-red-background-online-shopping-e-commerce-concept_47328-847.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.material-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-left: 2rem; /* Adjust left margin */
+}
+
+.shop-with-us {
+  height: 8.08vh;
+  font-family: "Inria Serif";
+  font-size: 7.77vh;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 62.35px;
+  color: #075a75;
+  text-align: left; /* Align text to the left */
+  margin-bottom: 1rem;
+}
+
+.our-shop-services {
+  height: 22.98vh;
+  font-family: "Jost";
+  margin-top: 0.99vh;
+  font-size: 8.125vh;
+  font-weight: 900;
+  line-height: 6.93vh;
+  letter-spacing: -0.02em;
+  text-align: left; /* Align text to the left */
+  color: #790910eb;
+  margin-bottom: 1rem;
+}
+
+.price-declaration {
+  height: 8.42vh;
+  font-family: "Jost";
+  font-size: 5.94vh;
+  font-weight: 900;
+  line-height: 6.936vh;
+  letter-spacing: -0.02em;
+  text-align: left; /* Align text to the left */
+  color: #f3eeee;
+  margin-bottom: 1rem;
+}
+
+.explorance {
+  width: 50%;
+  max-width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px 0px 0px 0px;
+  background: #790910d6;
+  border: 1px solid #790910eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0; /* Align button to the left */
+}
+
+.select-explore {
+  height: 2.97vh;
+  font-family: "Inria Serif";
+  font-size: 2.179vh;
+  font-weight: 700;
+  line-height: 2.97vh;
+  letter-spacing: -0.02em;
+  text-align: left; /* Align text to the left */
+  color: #ffffff;
+}
+
+@media (max-width: 953px) {
+  .shop-with-us {
+    height: 8.08vh;
+    font-family: "Inria Serif";
+    font-size: 7vh;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 62.35px;
+    color: #075a75;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 1rem;
+  }
+
+  .our-shop-services {
+    height: 22.98vh;
+    font-family: "Jost";
+    margin-top: 0.99vh;
+    font-size: 7vh;
+    font-weight: 900;
+    line-height: 6.93vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #790910eb;
+    margin-bottom: 1rem;
+  }
+
+  .price-declaration {
+    height: 8.42vh;
+    font-family: "Jost";
+    font-size: 5vh;
+    font-weight: 900;
+    line-height: 6.936vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #f3eeee;
+    margin-bottom: 1rem;
+  }
+
+  .explorance {
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px 0px 0px 0px;
+    background: #790910d6;
+    border: 1px solid #790910eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0; /* Align button to the left */
+  }
+}
+
+@media (max-width: 825px) {
+  .shop-with-us {
+    height: 8.08vh;
+    font-family: "Inria Serif";
+    font-size: 6vh;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 62.35px;
+    color: #075a75;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 1rem;
+  }
+
+  .our-shop-services {
+    height: 15vh;
+    font-family: "Jost";
+    margin-top: 0.99vh;
+    font-size: 5vh;
+    font-weight: 900;
+    line-height: 5vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #790910eb;
+    margin-bottom: 1rem;
+  }
+
+  .price-declaration {
+    height: 8.42vh;
+    font-family: "Jost";
+    font-size: 3vh;
+    font-weight: 900;
+    line-height: 6.936vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #f3eeee;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .materialbg {
+    width: auto;
+    height: 50vh;
+    background-image: url("https://s3-alpha-sig.figma.com/img/5fbe/7fe8/2c8ccee170da327a9cd377d6381f6596?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jnNkw9etzV8PCbvkZXG4lMNxpjpbqxcbdh2gqO-WgXG54SO0TbByUPcuB7YNRcjb78ZLcwtOfgbsy2bSYjwOn7LeEcwl2jKviKeOmXNDHdiQwrtH8uEftwZKTdZdsydLt-rbqiiMVQuJYZcSYauQ4Wgg30paeQVBRrMa36o-rNLGHlKtWCdCz7L0dDQNy7C8Ph9hGVeVrJKxifgWMDKfj4Ikutp8S0cojT4KB---z4XYjp-R7RTLralvCGYVzY22hoE-3Nk~K84WILw55g1ilzDzFK-LUvxVFtre~vVhqv7pFxTVyWaxv-DiyZzfTfnXvl3Nn-xltSj88SGX097SWw__");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .material-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 2rem; /* Adjust left margin */
+    /* border: 1px solid black; */
+    height: 50%;
+  }
+
+  .shop-with-us {
+    height: 8.08vh;
+    font-family: "Inria Serif";
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 10px;
+    color: #075a75;
+    text-align: left; /* Align text to the left */
+  }
+
+  .our-shop-services {
+    height: 15vh;
+    font-family: "Jost";
+    font-size: 3vh;
+    font-weight: 900;
+    line-height: 3vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #790910eb;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 464px) {
+  .shop-with-us {
+    height: 8.08vh;
+    font-family: "Inria Serif";
+    font-size: 3.5vh;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 10px;
+    color: #075a75;
+    text-align: left; /* Align text to the left */
+  }
+
+  .material-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 1rem; /* Adjust left margin */
+    /* border: 1px solid black; */
+    height: 50%;
+  }
+
+  .our-shop-services {
+    height: 15vh;
+    font-family: "Jost";
+    margin-top: 0.99vh;
+    font-size: 3vh;
+    font-weight: 900;
+    line-height: 3vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #790910eb;
+    margin-bottom: 1rem;
+  }
+
+  .price-declaration {
+    height: 5vh;
+    font-family: "Jost";
+    font-size: 2vh;
+    font-weight: 900;
+    line-height: 3vh;
+    letter-spacing: -0.02em;
+    text-align: left; /* Align text to the left */
+    color: #f3eeee;
+    margin-bottom: 1rem;
+  }
+
+  .explorance {
+    width: 30%;
+    height: 20px;
+    border-radius: 15px;
+    border: 1px 0px 0px 0px;
+    background: #790910d6;
+    border: 1px solid #790910eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0; /* Align button to the left */
+  }
+
+  .select-explore {
+    height: 2.97vh;
+    font-family: "Inria Serif";
+    font-size: 1.179vh;
+    font-weight: 700;
+    line-height: 2.97vh;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 334px) {
+  .material-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    height: 50%;
+  }
+}

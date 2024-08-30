@@ -1,0 +1,15 @@
+.company-blog-form {
+  height: 130vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-blog-form-container {
+  border: 1px solid black;
+  border-radius: 12px;
+  height: auto;
+  width: 80%;
+  padding: 2rem;
+}

@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.vision-header,
+.our-vision-box,
+.goals,
+.our-project-box,
+.core-team-box {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.vision-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 10%;
+}
+
+.our-vision {
+  font-size: 4vw;
+  font-weight: 700;
+  color: #1f205b;
+}
+
+.our-vision-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.our-vision-box-left,
+.our-project-left {
+  flex: 1 1 30%;
+}
+
+.our-vision-box-left img,
+.our-project-left img {
+  width: 100%;
+  height: auto;
+}
+
+.our-vision-box-right,
+.our-project-right {
+  flex: 1 1 60%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.our-vision-box-right-header,
+.our-goals-header,
+.our-project-header {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #1f205b;
+}
+
+.header-content,
+.project-right-box {
+  margin: 20px 0;
+}
+
+.our-vision-box-right-content p,
+.our-goals-content,
+.project-right-box p {
+  font-size: 1.5vw;
+  color: #000;
+  margin: 20px 0;
+}
+
+.project-right-box button {
+  padding: 10px;
+  border: 1px solid #00000033;
+  background: #9b9090;
+  border-radius: 10px;
+}
+
+.btn-projects {
+  font-size: 1.5vw;
+  color: #fff;
+  text-align: center;
+}
+
+/* Goals Section */
+.goals {
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.our-goals-content p {
+  margin: 20px 0;
+}
+
+/* Projects Section */
+.our-project-box {
+  margin: 100px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.our-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-project-header {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #1f205b;
+}
+
+/* Core Team Section */
+.core-team-box {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.meet-us {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #1f205b;
+}
+
+.core-team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.profile-card {
+  text-align: center;
+  margin: 10px;
+}
+
+.profile-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.about-core-members h1 {
+  font-size: 1.8vw;
+  font-weight: 700;
+}
+
+.about-core-members p {
+  font-size: 1.5vw;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .our-vision,
+  .our-vision-box-right-header,
+  .our-goals-header,
+  .our-project-header,
+  .meet-us {
+    font-size: 6vw;
+  }
+
+  .our-vision-box,
+  .goals,
+  .our-project-box {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .our-vision-box-right-content p,
+  .our-goals-content,
+  .project-right-box p,
+  .btn-projects,
+  .about-core-members h1,
+  .about-core-members p {
+    font-size: 3vw;
+  }
+
+  .core-team-members {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .our-vision-box,
+  .our-project {
+    flex-direction: column;
+  }
+
+  .our-vision-box-left,
+  .our-project-left {
+    order: -1;
+    flex: 1 1 100%;
+  }
+
+  .our-vision-box-right,
+  .our-project-right {
+    flex: 1 1 100%;
+  }
+
+  .our-project-box {
+    margin: 50px 0;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .our-project-header {
+    margin-bottom: 20px;
+  }
+
+  .project-right-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 625px) {
+  .our-vision-box {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  .our-vision-box-right-content p,
+  .our-goals-content p,
+  .project-right-box p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 380px) {
+  .our-vision-box-right-content p,
+  .our-goals-content p,
+  .project-right-box p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 273px) {
+  .our-vision,
+  .our-vision-box-right-header,
+  .our-goals-header,
+  .our-project-header,
+  .meet-us {
+    font-size: 8vw;
+  }
+}
+
+@media (max-width: 228px) {
+  .our-vision,
+  .our-vision-box-right-header,
+  .our-goals-header,
+  .our-project-header,
+  .meet-us {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 178px) {
+  .our-vision,
+  .our-vision-box-right-header,
+  .our-goals-header,
+  .our-project-header,
+  .meet-us {
+    font-size: 12vw;
+  }
+}

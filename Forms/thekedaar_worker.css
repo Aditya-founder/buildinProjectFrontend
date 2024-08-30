@@ -1,0 +1,18 @@
+.theka {
+  background-color: rgba(135, 206, 235, 0.1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thekedaar_worker-details {
+  height: auto;
+  width: 90%;
+  background-color: white;
+  padding: 4vh;
+}
+
+.dob-container {
+  width: 15%;
+}
