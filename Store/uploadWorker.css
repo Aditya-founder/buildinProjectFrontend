@@ -1,0 +1,41 @@
+.worker-upload {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.worker-upload-form {
+  height: auto;
+  width: 90%;
+  display: flex;
+  /* border: 1px solid gray; */
+}
+
+.worker-upload-form-container {
+  padding: 1rem;
+  width: 50%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.worker-upload-header {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.worker-upload-form-container p {
+  font-size: 20px;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.aadhar-icon {
+  height: 26.5rem;
+  width: 20rem;
+}

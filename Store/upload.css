@@ -1,0 +1,21 @@
+.upload-engineer {
+  height: auto;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-engineer-form {
+  height: 85%;
+  width: 80%;
+  border: 1px solid gray;
+  display: flex;
+  padding: 1rem;
+}
+
+.upload-engineer-form-container {
+  width: 50%;
+  padding-inline: 1rem;
+}
