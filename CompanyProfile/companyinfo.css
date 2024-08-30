@@ -1,0 +1,208 @@
+.companies-blog-details {
+  height: auto;
+}
+
+.companies-blog {
+  height: 30vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comapnies-blog-header {
+  background-color: white;
+  height: 40%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-blog-name-header {
+  font-size: 50px;
+  font-weight: 800px;
+}
+
+.company-blog-topic-overview {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.overview {
+  font-size: 50px;
+  text-align: center;
+}
+
+.company-blog-image-container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5rem;
+}
+
+.company-blog-image-box {
+  width: 35%;
+  height: 100%;
+}
+
+.company-blog-image-box img {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.company-blog-about-content {
+  width: 65%;
+  height: 100%;
+}
+
+.company-blog-about-content p {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.services-offered-container {
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.services-offered-container h1 {
+  padding: 1rem;
+}
+
+.services-description p {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.safety-company-container {
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.safety-company-container h1,
+.team-profile-intro h1 {
+  padding: 1rem;
+}
+
+.team-profiles {
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.team-profile-desk-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.team-profile-desk-image-container {
+  height: 100%;
+  width: 35%;
+}
+
+.team-profile-desk-image-container img {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.founder-intro li {
+  font-size: 18px;
+}
+
+.founder-intro ul li {
+  margin-top: 1rem;
+}
+
+.for-mor-info {
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-blog-tag {
+  font-size: 30px;
+}
+
+.company-website-link {
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1686px) {
+  .company-blog-image-container {
+    flex-direction: column;
+  }
+
+  .company-blog-about-content {
+    width: 100%;
+  }
+
+  .company-blog-image-box {
+    margin-left: 32.5%;
+  }
+
+  .overview {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .company-blog-name-header {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 700px) {
+  .overview {
+    font-size: 20px;
+  }
+
+  .company-blog-name-header {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 570px) {
+  .info-blog-tag {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .overview {
+    font-size: 15px;
+  }
+
+  .company-blog-name-header {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 488px) {
+  .info-blog-tag {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 386px) {
+  .info-blog-tag {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

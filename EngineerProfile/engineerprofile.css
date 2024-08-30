@@ -1,0 +1,259 @@
+.profile-name-header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input-for-request {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.input-entry {
+  width: 50% !important;
+  height: 100% !important;
+}
+
+.profile-name-header-left {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.profile-guy-name {
+  font-size: 7rem;
+  padding-left: 4vh;
+  font-weight: 600;
+  font-family: Jura;
+  color: orangered;
+}
+
+.about-details-header {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-details-content {
+  margin-top: 1rem;
+  height: auto;
+  font-family: Inika;
+}
+
+.about-details-content p,
+.message-paragraph p {
+  font-size: 22px;
+}
+
+.profile-name-header-right {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 4vh;
+  justify-content: center;
+}
+
+.about-image-resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.about-profile,
+.resume-profile {
+  height: 90%;
+  width: 35%;
+  padding: 2vh;
+  gap: 1rem;
+}
+
+.download-resume,
+.access-project-links {
+  height: 50%;
+}
+
+.image-profile {
+  height: 90%;
+  width: 25%;
+}
+
+.image-profile img {
+  height: 100%;
+  width: 100%;
+  padding: 1vh;
+}
+
+.company-message {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.company-worked-with {
+  width: 40%;
+  height: 90%;
+  padding-left: 4vh;
+}
+
+.message-by-me {
+  width: 60%;
+  height: 90%;
+  /* border: 1px solid black; */
+}
+
+.header-company-worked {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 2vh;
+}
+
+.message-gap-header-my-side {
+  font-size: 30px;
+  padding-left: 0.8vh;
+  font-weight: bold;
+}
+
+.message-paragraph {
+  padding: 1vh;
+}
+
+.company-list ul li {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.my-hiring-btn {
+  height: 10vh;
+  width: 90%;
+  margin-top: 3rem;
+  margin-left: 5%;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  font-weight: 600;
+  background: #ffdcd6;
+  color: #3a566b;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  .profile-name-header-left {
+    width: 100%;
+    height: 90%;
+  }
+
+  .profile-name-header-right {
+    width: 100%;
+  }
+
+  .profile-guy-name {
+    font-size: 5rem;
+  }
+
+  .profile-name-header {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
+
+  .input-client-contact {
+    width: 90%;
+  }
+
+  .image-profile {
+    height: 100%;
+    width: 30%;
+  }
+
+  .about-details-header {
+    padding-left: 2vh;
+  }
+
+  .about-details-content p,
+  .message-paragraph p {
+    font-size: 20px;
+    padding: 2vh;
+  }
+}
+
+@media (max-width: 1160px) {
+  .company-message {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company-worked-with {
+    width: 100%;
+    height: 90%;
+    padding-left: 4vh;
+  }
+
+  .message-by-me {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 3rem;
+  }
+
+  .about-image-resume {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-profile,
+  .resume-profile {
+    height: 80%;
+    width: 100%;
+    padding: 2vh;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 612px) {
+  .header-company-worked,
+  .meassage-gap-header {
+    font-size: 20px;
+  }
+  .about-details-header {
+    font-size: 2rem;
+  }
+  .profile-guy-name {
+    font-size: 3rem;
+  }
+  .my-hiring-btn {
+    height: 10vh;
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 460px) {
+  .input-client-contact {
+    width: 60%;
+  }
+}
+
+@media (max-width: 394px) {
+  .about-details-header {
+    font-size: 1.5rem;
+  }
+
+  .profile-guy-name {
+    font-size: 2rem;
+  }
+  .input-client-contact {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}

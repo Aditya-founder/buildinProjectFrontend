@@ -1,0 +1,136 @@
+.contact-us-container {
+  height: 100vh;
+  width: 100%;
+  background: #f2eded;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+  height: 76%;
+  width: 80%;
+}
+
+.contact-entry-left {
+  width: 100%;
+  height: 100%;
+  background: #85a7c0db;
+}
+
+.contact-entry-right {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.contact-entry-right-header {
+  font-family: Inika;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46.91px;
+}
+
+.contact-entry-right-message {
+  font-family: Inika;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.06px;
+}
+
+.customer-support {
+  margin-top: 6rem;
+}
+
+.phone,
+.email,
+.website {
+  font-family: Inika;
+  font-size: auto;
+  font-weight: 400;
+  line-height: 26.06px;
+  text-align: center;
+  margin-top: 1rem;
+  width: auto;
+  height: auto;
+}
+
+.contact-entry-left-header {
+  font-family: Inika;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.7px;
+  color: white;
+  padding-left: 2vh;
+}
+
+.contact-input {
+  font-size: 25px !important;
+  width: 90% !important;
+  margin-left: 2vh;
+  border-bottom: 1px solid white;
+  margin-top: 2rem;
+}
+
+.contact-input-type {
+  color: white !important;
+}
+
+.contact-input-type::placeholder {
+  color: white !important;
+}
+
+.ui.form .field.send-message label.message-me {
+  color: white;
+  font-size: 25px;
+}
+
+.ui.form .field.send-message textarea {
+  margin-top: 1rem;
+}
+
+.send-message {
+  padding: 2vh;
+  margin-top: 0.5rem !important;
+}
+
+.contcat-us-submission {
+  margin-left: 2vh !important;
+}
+
+@media (max-width: 1152px) {
+  .container-box {
+    height: 76%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 830px) {
+  .container-box {
+    height: 76%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us-container {
+    height: 150vh;
+    width: 100%;
+    background: #f2eded;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-entry-left {
+    width: 100%;
+    height: 70%;
+    background: #85a7c0db;
+  }
+
+  .contact-entry-right {
+    width: 100%;
+    height: 35%;
+    background-color: white;
+  }
+}

@@ -1,0 +1,36 @@
+.terms-and-conditions {
+  background-color: beige;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tandc-sheet {
+  background-color: white;
+  width: 60%;
+  height: 90%;
+}
+
+.tanc-header {
+  height: 10vh;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 4.5vh;
+  font-weight: 600;
+  color: rgb(66, 73, 79);
+  border-bottom: 1px solid gray;
+}
+
+.legal-processes-tandc {
+  height: auto;
+  padding-inline: 3vh;
+}
+
+.an-intro-to-company-tandc {
+  /* border: 1px solid black; */
+  padding-inline: 3vh;
+  font-size: 20px;
+  margin-top: 2rem;
+}

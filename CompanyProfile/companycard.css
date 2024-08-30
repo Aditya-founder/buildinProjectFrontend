@@ -1,0 +1,77 @@
+.companies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.company {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.company img {
+  width: 100%;
+  height: 50vh; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  border-radius: 8px;
+}
+
+.company h3 {
+  margin: 12px 0;
+}
+
+.company p {
+  margin: 8px 0;
+}
+
+@media (max-width: 1546px) {
+  .companies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1020px) {
+  .companies {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 610px) {
+  .companies {
+    width: 98%;
+    margin-left: 1%;
+  }
+
+  .company {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    height: auto;
+  }
+
+  .company img {
+    width: 100%;
+    height: 36%; /* Set a fixed height */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .content-part {
+    height: 50%;
+    /* background-color: red; */
+  }
+
+  .company h3 {
+    margin: 2px 0;
+  }
+
+  .company p {
+    margin: 2px 0;
+  }
+}

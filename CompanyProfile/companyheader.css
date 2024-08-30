@@ -1,0 +1,280 @@
+.company-header {
+  border: 1px solid gray;
+  width: 90%;
+  margin-left: 5%;
+  padding: 2rem 1rem;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-top: 6rem;
+  height: 60vh;
+}
+
+.finder {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.types {
+  width: 20%;
+}
+
+.company-advertisement {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  height: 80%;
+}
+
+.company-advertisement-left {
+  width: 60%;
+  height: auto;
+  background-color: red;
+}
+
+.company-advertisement-right {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 8px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+.professional-item {
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  height: 100%;
+  display: grid;
+  align-items: end;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+.professional-name-container {
+  display: grid;
+  justify-items: center;
+}
+
+.professional-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.slider_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+.slider {
+  position: relative;
+  width: 400%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  animation: 15s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+}
+.slide {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.slide .caption {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.348);
+  backdrop-filter: blur(10px);
+  padding: 1rem 5rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+@media (max-width: 1182px) {
+  .types {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .company-header {
+    height: 120vh;
+  }
+
+  .company-advertisement {
+    flex-direction: column;
+    height: 94%;
+  }
+
+  .company-advertisement-left {
+    width: 100%;
+    height: 50%;
+  }
+
+  .company-advertisement-right {
+    height: 50%;
+  }
+}
+
+@media (max-width: 864px) {
+  .company-header {
+    height: 100vh;
+  }
+
+  .company-advertisement {
+    height: 94%;
+  }
+
+  .company-advertisement-left {
+    width: 100%;
+    height: 40%;
+  }
+
+  .company-advertisement-right {
+    height: 60%;
+  }
+
+  .locator {
+    width: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  .company-advertisement-right {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .finder {
+    gap: 5rem;
+  }
+
+  .locator {
+    width: 30%;
+  }
+
+  .types {
+    width: 40%;
+  }
+}
+
+@media (max-width: 543px) {
+  .slide .caption {
+    font-size: 2rem;
+  }
+
+  .company-header {
+    height: 90vh;
+  }
+
+  .company-advertisement {
+    height: 94%;
+  }
+
+  .company-advertisement-left {
+    width: 100%;
+    height: 30%;
+  }
+
+  .company-advertisement-right {
+    height: 70%;
+  }
+}
+
+@media (max-width: 473px) {
+  .company-advertisement-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .company-header {
+    border: 1px solid gray;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2rem 1rem;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-top: 6rem;
+    height: 100vh;
+  }
+
+  .finder {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+  }
+
+  .types {
+    width: 99%;
+  }
+
+  .company-advertisement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 80%;
+  }
+
+  .company-advertisement-left {
+    width: 100%;
+    height: 30%;
+  }
+
+  .locator {
+    width: 60%;
+  }
+
+  .slide .caption {
+    font-size: 1rem;
+  }
+}

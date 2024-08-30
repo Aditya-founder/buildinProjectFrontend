@@ -1,0 +1,262 @@
+.select-your-domain {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.user-satisfaction {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 15rem;
+}
+
+.user-satisfaction-boxes {
+  height: 90%;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.our-joinings {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.customer-success-stories {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: antiquewhite;
+}
+
+.select-your-domain-left {
+  width: 45%;
+  height: 90%;
+}
+
+.select-your-domain-right {
+  width: 25%;
+  height: 90%;
+  background-image: url("https://img.freepik.com/premium-photo/dark-abstract-background-with-red-glowing-lines-modern-technology-advertisement-concept-technology-abstract-background-advertisement-dark-theme-red-glow_918839-72559.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  padding-inline: 1rem;
+}
+
+.our-joinings-left {
+  height: 90%;
+  width: 50%;
+}
+
+.our-joinings-right {
+  height: 70%;
+  width: 30%;
+}
+
+.customer-success-stories-header {
+  height: 10vh;
+  width: 100%;
+}
+
+.customers-collection {
+  height: 70%;
+  width: 98%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.company-domain-name {
+  color: white;
+  font-size: 5rem;
+  padding-top: 2rem;
+}
+
+.in-name {
+  color: yellow;
+}
+
+.trust-quote {
+  color: white;
+  margin-top: 1.3rem;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 0.2rem;
+}
+
+.domain-header {
+  font-size: 60px;
+  padding-left: 4vh;
+  font-family: Jura;
+  font-weight: 700;
+  line-height: 4rem;
+  color: rgb(49, 81, 108);
+}
+
+.our-domains {
+  height: 70%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.our-domain-box {
+  height: 70%;
+  width: 60%;
+  border: 2px solid gray;
+  border-radius: 8px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.our-domain-box a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(49, 81, 108);
+}
+
+.user-satisfaction-numbers {
+  font-size: 8rem;
+  font-weight: 600;
+  color: rgb(49, 81, 108);
+}
+
+.user-satisfaction-type,
+.user-satisfaction-kind {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(49, 81, 108);
+}
+
+.why-join-us {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(49, 81, 108);
+}
+
+.why-join-us-content {
+  width: 90%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.why-join-us-content p {
+  font-size: 1.4rem;
+  padding: 2vh;
+  color: darkblue;
+}
+
+.our-joinings-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.our-domain-box-why-join-us {
+  height: 20vh;
+  width: 10vw;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  flex-direction: column;
+  color: darkblue;
+}
+
+.customer-header {
+  font-size: 3rem;
+  padding-top: 2vh;
+  font-weight: 600;
+  padding-left: 2vh;
+  font-family: Juro;
+  color: rgb(49, 81, 108);
+}
+
+.what-does-they-say-about-us {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 2vh;
+  margin-top: 1rem;
+  color: rgb(49, 81, 108);
+}
+
+.customers-comment {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+}
+
+.success-card {
+  height: auto;
+  width: auto;
+  display: block;
+  border: 2px solid gray;
+  border-radius: 1rem;
+}
+
+.success-card-image {
+  height: 70%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.success-card-heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 1rem;
+  color: rgb(194, 40, 40);
+  font-family: Inika;
+}
+
+.success-card-comment {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1rem;
+  color: darkblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reasons-to-join-us {
+  height: 50%;
+  width: 50%;
+}

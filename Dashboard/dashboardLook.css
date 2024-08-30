@@ -1,0 +1,63 @@
+.dashboard-look-container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #ffffff, #f3f4f7);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dashboard-row {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.dashboard-column {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.dashboard-column:first-child {
+  font-weight: 600;
+}
+
+.accept-button,
+.reject-button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.accept-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reject-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+.reject-button:hover {
+  background-color: #e53935;
+}

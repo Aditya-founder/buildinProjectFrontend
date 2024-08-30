@@ -1,0 +1,25 @@
+.achievement-container {
+  width: 80%;
+  margin: 30px auto;
+  height: auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #ffffff, #f3f4f7);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.achievement-description {
+  font-size: 1.3rem;
+  color: #666;
+  line-height: 1.5;
+}

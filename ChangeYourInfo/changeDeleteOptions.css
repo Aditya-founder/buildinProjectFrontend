@@ -1,0 +1,47 @@
+/* Container styling */
+.change-delete-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Button styling */
+.change-delete-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Change Password button styling */
+.change-password-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.change-password-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Delete Account button styling */
+.delete-account-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-account-button:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
